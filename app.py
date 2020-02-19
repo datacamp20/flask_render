@@ -10,7 +10,6 @@ app.config['DEBUG'] = True
 
 import pandas as pd
 
-
 @app.route("/", methods=['GET'])
 def index():
     return render_template('index.html')
